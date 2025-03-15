@@ -12,6 +12,10 @@ CSS3: Styling using Flexbox, Grid, and custom media queries to ensure responsive
 
 JavaScript: Interactive features like the hamburger menu toggle, smooth scrolling, and other dynamic effects.
 
+## Demo
+
+You can view the live version of the website here: https://portfoliopratikkhot.netlify.app/
+
 Key Features:
 
 Responsive Design: Ensures an optimal user experience across various screen sizes with a mobile-first approach, utilizing CSS Flexbox and Grid, along with advanced media queries.
