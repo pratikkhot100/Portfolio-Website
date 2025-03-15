@@ -22,7 +22,9 @@ cd Portfolio-Website
 3. Open index.html in your browser to view the website.
 
 # Usage
-You can view the live version of the website here: https://portfoliopratikkhot.netlify.app/
+You can view the live version of the website here: 
+https://portfoliopratikkhot.netlify.app/
+
 Feel free to explore the site and check out my projects, skills, and contact information.
 
 # Contributing
