@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+ <html lang="en" oncontextmenu="return false">  
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <b><div class="logo">Pratik Khot</div></b>
+      <div>
+        <b><ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul></b>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <b><div class="logo">Pratik Khot</div></b>
+
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <b><li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li></b>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Profile-photo.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <b><p class="section__text__p1">Hello, I'm</p></b>
+        <h1 class="title">Pratik Khot</h1>
+        <b><p class="section__text__p2">Java Developer</p></b>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume.pdf')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/pratikkhot01'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/pratikkhot100'"
+          />
+        </div>
+      </div>
+    </section>
+    
+    <section id="about">
+      <b><p class="section__text__p1">Get To Know More</p></b>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/download.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Education</h3><br>
+              <b><p>B.sc(IT) Bachelor Degree<br/>
+                <p>Bachelor of Science in Information Technology (2021-2024)<br> 
+                JES college of commerce, science and IT, Jogeshwari(E)<br>
+                Mumbai University | CGPA-7.18 </p><br>
+                <p>HSC Board<br/>
+                <P>Higher Secondary Certificate (HSC) Examination (2019-2021)<br>
+                JES college of commerce, science and IT, Jogeshwari(E)<br>
+                Maharashtra State Board | Percentage- 65.67%<br>
+               </p></b>
+            </div>
+          </div>
+          <div class="text-container">
+            <b><p>
+              I'm Pratik Khot , Passionate software developer with a interest for coding and problem-solving. Proficient in Java development, Javascript, Frameworks Hibernate, Spring and SpringBoot I thrive in turning complex ideas into elegant, user-friendly solutions. Excited about contributing to innovative projects and collaborating with like-minded professionals. Open to new opportunities that allow me to apply and expand my technical expertise.
+            </p></b>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <b><p class="section__text__p1">Explore My</p></b>
+      <h1 class="title">Skills</h1>
+      <b><p>I'm a skilled software developer proficient in building user-friendly interfaces, Java backend systems, and efficient databases. I excel at object-oriented programming, rapid application development, and version control, ensuring high-quality, maintainable code and timely project delivery.  I'm passionate about continuous learning and eager to contribute to innovative projects.
+      </p></b>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+              <div class="article-container">
+              <article>
+                <img 
+                  src="./assets/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <a href="https://en.wikipedia.org/wiki/HTML" target="_self"><h3>HTML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <a href="https://en.wikipedia.org/wiki/CSS" target="_self"><h3>CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Javascript.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <a href="https://simple.wikipedia.org/wiki/JavaScript" target="_self"><h3>JavaScript &nbsp;&nbsp;</h3></a>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/bootstrap.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_self"><h3>BootStrap &nbsp;&nbsp;&nbsp;</h3></a>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Java.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                  <div>
+                    <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_self"><h3>Java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/Java.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <a href="https://www.geeksforgeeks.org/advanced-java/" target="_self"><h3>Advance Java</h3></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/Hibernate.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <a href="https://en.wikipedia.org/wiki/Hibernate_(framework)" target="_self"><h3>Hibernate &nbsp;&nbsp;</h3></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/Springboot.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <a href="https://en.wikipedia.org/wiki/Spring_Boot" target="_self"><h3>Spring Boot</h3></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/RestAPI.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <a href="https://en.wikipedia.org/wiki/REST" target="_self"><h3>REST API &nbsp;&nbsp;&nbsp;</h3></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/MySQL.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <a href="https://en.wikipedia.org/wiki/MySQL" target="_self"><h3>MySQL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/git.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <a href="https://en.wikipedia.org/wiki/Git" target="_self"><h3>Git &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                  </div>
+                </article>
+                <article>
+                  <img 
+                    src="./assets/github.png" 
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <a href="https://en.wikipedia.org/wiki/GitHub" target="_self"><h3>Github &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                  </div>
+                </article>
+            </div>
+          </div>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Tools</h2>
+                  <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/eclipse.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <a href="https://en.wikipedia.org/wiki/Eclipse_(software)" target="_self"><h3>Eclipse IDE</h3></a>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/Intellij.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <a href="https://en.wikipedia.org/wiki/IntelliJ_IDEA" target="_self"><h3>IntelliJ IDEA</h3></a>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/VsCode.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code" target="_self"><h3>VS Code&nbsp;&nbsp;</h3></a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <b><p class="section__text__p1">Browse My Recent</p></b>
+      <h1 class="title">Projects</h1>
+      <b><p>I've built a Java web application using Spring Boot, JSP, MySQL, and Hibernate, incorporating core Java concepts.  Spring Boot manages the backend and data access, leveraging Hibernate for Object-Relational Mapping (ORM) to interact with the MySQL database. JSP handles the front-end views.  The project likely follows an MVC architecture, utilizing core Java principles like object-oriented programming, data structures, and exception handling throughout.
+      </p></b>
+        <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Hos.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Hospital Management System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/pratikkhot100'"
+              >
+                <b>See More</b>
+                </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ecommerce.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">E-Commerce Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/pratikkhot100'"
+              >
+                <b>See More</b>
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <b><p class="section__text__p1">Get in Touch</p></b>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:pratikkhot1207@gmail.com" target="_self">pratikkhot1207@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/pratikkhot01" target="_self">LinkedIn</a></p>
+        </div> &nbsp;&nbsp;
+        <div class="contact-info-container">
+          <img
+            src="./assets/contact.png"
+            alt="Contact icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="tel:+919321083829" target="_self">9321083829</a></p>
+        </div>
+      </div>
+    </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <b><ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul></b>
+        </div>
+      </nav>
+      <b><p>Copyright &#169; 2025 Pratik khot. All Rights Reserved.</p></b>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
