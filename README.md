@@ -2,7 +2,7 @@
 
 This Personal Portfolio Website showcases my skills and projects as a web developer. Built using HTML5, CSS3, and JavaScript, the site features a clean and modern design, responsive layout, and intuitive navigation. It highlights my professional experience, skills, and project portfolio, providing a seamless experience across all devices.
 
-# Technologies Used:
+# Technologies Used
 
 HTML5: Structuring content with semantic tags for accessibility and SEO.
 
