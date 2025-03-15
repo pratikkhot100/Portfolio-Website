@@ -1,31 +1,42 @@
-# Portfolio-Website
-Personal Portfolio Website
+# Portfolio Website
 
-This Personal Portfolio Website showcases my skills and projects as a web developer. Built with HTML, CSS, and JavaScript, the site features a clean and modern design, responsive layout, and intuitive navigation.
-This is a fully responsive personal portfolio website developed to showcase my skills, experience, and professional projects. Designed with an emphasis on user experience and modern web design principles, this portfolio provides a seamless interface across all devices, from desktop to mobile.
+This Personal Portfolio Website showcases my skills and projects as a web developer. Built using HTML5, CSS3, and JavaScript, the site features a clean and modern design, responsive layout, and intuitive navigation. It highlights my professional experience, skills, and project portfolio, providing a seamless experience across all devices.
 
 Technologies Used:
 
-HTML5: Structuring the content with semantic tags to enhance accessibility and SEO.
+HTML5: Structuring content with semantic tags for accessibility and SEO.
 
-CSS3: Styling using Flexbox, Grid, and custom media queries to ensure responsiveness across devices.
+CSS3: Styling with Flexbox, Grid, and custom media queries for responsiveness.
 
-JavaScript: Interactive features like the hamburger menu toggle, smooth scrolling, and other dynamic effects.
+JavaScript: Dynamic features like hamburger menu toggle, smooth scrolling, etc.
 
-## Demo
+Installation
+To run this project locally:
 
+1. Clone the repository:
+git clone https://github.com/pratikkhot100/Portfolio-Website.git
+
+2. Navigate to the project directory:
+cd Portfolio-Website
+
+3. Open index.html in your browser to view the website.
+
+Usage
 You can view the live version of the website here: https://portfoliopratikkhot.netlify.app/
+Feel free to explore the site and check out my projects, skills, and contact information.
 
-Key Features:
+Contributing
+If you'd like to contribute to this project, you can:
 
-Responsive Design: Ensures an optimal user experience across various screen sizes with a mobile-first approach, utilizing CSS Flexbox and Grid, along with advanced media queries.
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Make your changes.
+4. Push to your forked repository (git push origin feature-branch).
+5. Create a pull request.
 
-Interactive Navigation: A hamburger menu for mobile devices, featuring smooth animations and transitions to enhance user engagement.
+Please make sure to follow best practices and write clean, maintainable code.
 
-Sectioned Layout: Includes distinct sections for an introduction, professional experience, project portfolio, and contact information, creating a clear and organized flow of content.
-
-Sleek Aesthetics: Modern and clean design leveraging the Poppins font and a sophisticated color scheme to create a professional and approachable look.
-
-Smooth Scrolling: The smooth scrolling effect allows for effortless navigation through the various sections of the portfolio.
-
-This portfolio represents my commitment to clean, maintainable code and a strong understanding of front-end web development principles. Feel free to explore the project and reach out for collaboration opportunities.
+Contact Information
+GitHub: https://github.com/pratikkhot100
+LinkedIn: https://www.linkedin.com/in/pratikkhot01
+Email: pratikkhot1207@gmail.com
